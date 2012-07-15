@@ -1,4 +1,4 @@
 html5-exemplo-tarefas
 =====================
 
-Exemplo de HTML5
+Exemplo simples de HTML5 com CSS e JavaScript
