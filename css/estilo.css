@@ -1,0 +1,57 @@
+html {
+  font-family: "Georgia";
+  font-size: 12pt;
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+article {
+  padding: 20px;
+  padding-right: 20px;
+  background: #fff;
+  overflow:auto;
+
+  border: 1px solid #7398be;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+
+  -moz-box-shadow: 2px 2px 2px #cccccc;
+  -webkit-box-shadow: 2px 2px 2px #cccccc;
+  box-shadow: 2px 2px 2px #cccccc;
+}
+
+.botao {
+  font-size: 12pt;
+  font-weight: bold;
+  float: right;
+  margin-left:15px;
+  margin:10px 15px 10px 0;
+  line-height: 1;
+  padding: 6px 10px;
+  cursor:pointer;
+  color: #fff;
+
+  text-align: center;
+  text-shadow: 0 -1px 1px #64799e;
+
+  background: #a5b8da;
+  background: -moz-linear-gradient(top, #6699CC 0%, #003366 100%);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6699CC), to(#003366));
+
+  border: 1px solid #5c6f91;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+
+  -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+  -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+  box-shadow: inset 0 1px 0 0 #aec3e5;
+}

@@ -1,0 +1,34 @@
+<!--
+    Document   : index.html
+    Created on : 11/07/2012, 07:17:11
+    Author     : Rafael Guimarães Sakurai
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Minhas Tarefas</title>
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <script src="js/tarefas.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="imagens/logo.png" alt="Para Fazer"/>
+    </header>
+    <article>
+      <form>
+        <label>Tarefa:</label>
+        <input type="text" id="descricao" name="descricao" placeholder="Nome da tarefa" maxlength="100"
+               size="100"/><br/>
+        <input type="button" id="botaoAdicionar" value="Adicionar" class="botao"/><br/>
+      </form>
+    </article>
+    <br/>
+    <article>
+      <label>Lista de tarefas</label>
+      <ul id="tarefas">
+
+      </ul>
+    </article>
+  </body>
+</html>
