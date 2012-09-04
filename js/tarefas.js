@@ -16,10 +16,7 @@ function init() {
 function adicionarTarefaNoDOM(value) {
   var tarefas = document.getElementById("tarefas");
   var tarefa = document.createElement("li");
-  var span = document.createElement("span");
-  span.setAttribute("class", "tarefa");
-  span.innerHTML = value;
-  tarefa.appendChild(span);
+  tarefa.innerHTML = value;
   tarefas.appendChild(tarefa);
 }
 
